@@ -1,0 +1,44 @@
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<div class="container">
+  <div class="row">
+    <div class="col-xs-4 col-xs-offset-4 col-sm-4 col-sm-offset-4">
+      <select id="animation-in-types">
+        <option value="" selected>Escolha o tipo de animação</option><!--rotateInUpRight - bounceOutUp-->
+      </select>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-xs-4 col-xs-offset-4 col-sm-4 col-sm-offset-4">
+      <select id="animation-out-types">
+        <option value="" selected>Escolha um efeito de entrada e saída</option>
+      </select>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-xs-4 col-xs-offset-4 col-sm-4 col-sm-offset-4">
+      <button class="btn btn-default">Abrir Modal</button>
+    </div>
+  </div>
+</div>
+
+<!-- Modal -->
+<div class="modal animated" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-custom-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="myModalLabel">Modal Titulo</h4>
+      </div>
+      <div class="modal-body">
+        ...
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-danger" data-custom-dismiss="modal">Fechar</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script src="app.js" type="text/javascript"></script>
+<link rel="stylesheet" type="text/css" href="estilo.css">
